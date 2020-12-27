@@ -63,7 +63,7 @@
                                 </Grid>
 
                                 <Grid Grid.Row="3">
-                                    <Button x:Name="btnCaricaStudente" Height="25" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Carica Studente" FontFamily="Arial" FontWeight="SemiBold"/>
+                                    <Button x:Name="btnCaricaStudente" Height="25" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Carica Studente" FontFamily="Arial" FontWeight="SemiBold" Click="BtnCaricaStudente_Click_1"/>
                                 </Grid>
                                 <Grid Grid.Row="4">
                                     <ComboBox x:Name="cmbStudenti" Height="23" Width="200"/>
@@ -112,7 +112,7 @@
                                 </Grid>
 
                                 <Grid Grid.Row="3">
-                                    <Button x:Name="btnCaricaLibro" Height="25" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Carica Libro" FontFamily="Arial" FontWeight="SemiBold"/>
+                                    <Button x:Name="btnCaricaLibro" Height="25" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Carica Libro" FontFamily="Arial" FontWeight="SemiBold" Click="BtnCaricaLibro_Click_1"/>
                                 </Grid>
 
                                 <Grid Grid.Row="4">
